@@ -6,30 +6,3 @@
 #1A0904 BSCKLY BLACK
 also white 
 */
-    :root {
-      --bg: #fff;
-      /*--bg-elev: #0f151a;*/
-      --text: #1a0904;
-      --muted: #4a342d;
-      --primary: #fcd7b1; 
-      --secondary: #783a25; 
-      --accent: #d74492; 
-      --warning: #d74492;
-      /*--danger: #820247;*/
-      /*--card: #0e151a;
-      --border: #15232d;
-      --glow: 0 0 24px rgba(0,255,198,.25), 0 0 48px rgba(69,163,255,.15);
-      --radius: 14px;
-      --shadow: 0 10px 40px rgba(0,0,0,.45);*/
-    }
-.aladin-regular {
-  font-family: "Aladin", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.line-seed-jp-regular {
-  font-family: "LINE Seed JP", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
