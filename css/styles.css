@@ -61,6 +61,10 @@ also white
     .btn:focus-visible { outline: 2px solid var(--secondary); outline-offset: 2px; }
     .btn.primary { background: linear-gradient(90deg, rgba(0,255,198,.2), rgba(69,163,255,.2)); border-color: rgba(0,255,198,.45); }
 
+        .bi {
+      vertical-align: -0.125em;
+      fill: currentColor;
+    }
     /* Skip link */
     .skip { position: absolute; left: -9999px; top: auto; }
     .skip:focus { left: 1rem; top: 1rem; background: var(--bg-elev); padding: .5rem .75rem; border-radius: .5rem; outline: 2px solid var(--primary); }
@@ -71,8 +75,8 @@ also white
       display: flex; align-items: center; justify-content: space-between; gap: 1rem;
       padding: .9rem 0;
     }
-    .brand { font-family: Orbitron, Inter, sans-serif; font-weight: 700; letter-spacing: .12em; font-size: clamp(1rem, 2vw + .5rem, 1.25rem); display: inline-flex; align-items: center; gap: .6rem; }
-    .brand .dot { width: .6rem; height: .6rem; border-radius: 50%; background: radial-gradient(circle at 30% 30%, var(--primary), transparent 70%); box-shadow: 0 0 16px rgba(0,255,198,.8); }
+    .brand { font-family: Aladin, Inter, sans-serif; font-weight: 700; letter-spacing: .12em; font-size: clamp(1rem, 2vw + .5rem, 1.25rem); display: inline-flex; align-items: center; gap: .6rem; }
+    .brand .dot { width: .6rem; height: .6rem; border-radius: 50%; background: radial-gradient(circle at 30% 30%, var(--primary), transparent 70%); box-shadow: 0 0 16px #d74492; }
 
     /* Responsive nav (no JS) */
     #nav-toggle { position: absolute; opacity: 0; pointer-events: none; }
@@ -208,6 +212,8 @@ also white
       * { transition: none !important; animation: none !important; }
     }
 
+
+
     .bd-placeholder-img {
       text-anchor: middle;
       user-select: none;
@@ -220,55 +226,7 @@ also white
       }
     }
 
-    .b-example-divider {
-      background-color: #0000001a;
-      border: 1px solid #00000026;
-      border-width: 1px 0;
-      width: 100%;
-      height: 3rem;
-      box-shadow:
-        inset 0 0.5em 1.5em #0000001a,
-        inset 0 0.125em 0.5em #00000026;
-    }
 
-    .b-example-vr {
-      flex-shrink: 0;
-      width: 1.5rem;
-      height: 100vh;
-    }
 
-    .bi {
-      vertical-align: -0.125em;
-      fill: currentColor;
-    }
 
-    .nav-scroller {
-      z-index: 2;
-      height: 2.75rem;
-      position: relative;
-      overflow-y: hidden;
-    }
 
-    .nav-scroller .nav {
-      text-align: center;
-      white-space: nowrap;
-      -webkit-overflow-scrolling: touch;
-      flex-wrap: nowrap;
-      margin-top: -1px;
-      padding-bottom: 1rem;
-      display: flex;
-      overflow-x: auto;
-    }
-
-    .bd-mode-toggle {
-      z-index: 1500;
-    }
-
-    .bd-mode-toggle .bi {
-      width: 1em;
-      height: 1em;
-    }
-
-    .bd-mode-toggle .menu .active .bi {
-      display: block !important;
-    }

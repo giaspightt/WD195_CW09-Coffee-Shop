@@ -22,8 +22,28 @@
   <a class="skip" href="#main">Skip to main content</a>
   <header class="position-relative overflow-hidden text-white rounded-bottom-4 mx-md-3">
     <span>
+      <div class="container nav">
+      <a class="navbar-brand" href="#" aria-label="Daily Grind Coffee Home">
+        <span class="dot" aria-hidden="true"></span>
+        Daily Grind Coffee
+      </a>
+      <input type="checkbox" id="nav-toggle" aria-label="Toggle navigation" />
+      <label for="nav-toggle" class="hamburger" aria-hidden="true" title="Menu" aria-controls="primary-menu">
+        <span class="top"></span>
+        <span class="mid"></span>
+        <span class="bot"></span>
+      </label>
+      <nav aria-label="Primary">
+        <ul id="primary-menu">
+          <li><a href="#specials">Specials</a></li>
+          <li><a href="#species">Species</a></li>
+          <li><a href="#delivery">Delivery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
       <!--define logo-->
-      <div class="container-fluid">
+      <!-- <div class="container-fluid">
         <a class="navbar-brand" href="#">Daily Grind Coffee</a>
         <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarsExample04"
           aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,21 +61,20 @@
           <dialog class="drawer drawer-end" tabindex="-1" id="navbarsExample04" aria-label="Navigation">
             <ul class="navbar-nav me-auto mb-2 md:mb-0">
               <li class="nav-item">
-                <a class="nav-link active" href="about.html">About</a>
+                <a class="nav-link active" aria-current="about" href="about.html">About</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Menu</a></li>
+              <li class="nav-item active"><a class="nav-link" href="#">Menu</a></li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Locations</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link active" href="#">Bookings</a>
+                <a class="nav-link" href="#">Bookings</a>
               </li>
             </ul>
           </dialog>
       </div>
       </nav>
-      </div>
+      </div >-->
     </span>
     <!-- Object fit (background image): https://getbootstrap.com/docs/5.3/utilities/object-fit/ -->
     <img src="https://picsum.photos/1600/700?random=1" alt=""
